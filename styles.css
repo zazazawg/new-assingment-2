@@ -1,0 +1,778 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    /* max-width: 1160px; */
+    margin: 0 auto;
+
+}
+
+
+.primary-btn {
+    background-color: orange;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 50px;
+}
+
+.sec-btn {
+    background-color: black;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 12px;
+    padding: 15px 50px;
+}
+
+.section-tiitle {
+    font-size: 2.88rem;
+    font-weight: bold;
+    text-align: center;
+
+
+}
+
+.caeds-tittle {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #202020;
+}
+
+.card-dic {
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(102, 102, 102, 1);
+}
+
+.display-flex {
+    display: flex;
+}
+
+/* header style */
+.School-header {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+
+}
+
+/* Navbar style */
+.logo {
+    align-items: center;
+    gap: 12px;
+
+}
+
+.nav-menu>ul {
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+#Home {
+    color: orange;
+}
+
+#About {
+    color: skyblue;
+}
+
+#Facilities {
+    color: rgba(5, 212, 223, 1);
+}
+
+#Admission {
+    color: rgba(93, 88, 239, 1);
+
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.School-header {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.header-section {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.Standard-Curriculum {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+/* marquee */
+marquee {
+    box-shadow: 0 10px 30px #01adfd1f;
+    border: .5px solid #01adfd4b;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+/* header section style */
+
+
+.header-section {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-section-content {
+    max-width: 640px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-section-tittle {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: black;
+}
+
+.primary-tiitle-coolor {
+    color: orange;
+
+}
+
+.sec-tittile-color {
+    color: #01ACFD;
+}
+
+.header-section-dis {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: black;
+    margin: 24px 0px;
+}
+
+/* Curriculam section style */
+.Standard-Curriculum {
+    background-image: url(assets/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px;
+}
+
+.cards-items {
+    gap: 30px;
+    padding-bottom: 80px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+#card-bg1 {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 49%, rgba(222, 245, 255, 1) 100%);
+    border: 1px solid #DEF5FF;
+}
+
+#card-bg2 {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 49%, rgba(255, 244, 220, 1) 100%);
+    border: 1px solid #FFF4DC;
+}
+
+#card-bg3 {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 49%, rgba(242, 232, 255, 1) 100%);
+
+
+    border: 1px solid #F2E8FF;
+}
+
+.dis-center {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.card-img {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card-btn1 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #64C8FF;
+    background-color: #01adfd00;
+    border: none;
+    margin-bottom: 40px;
+
+}
+
+.card-btn2 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #F0AA00;
+    background-color: #01adfd00;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.card-btn3 {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #8700FF;
+    background-color: #01adfd00;
+    border: none;
+    margin-bottom: 40px;
+}
+
+#curriculum-tittle {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.arrow-btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.arrow-btns>img {
+    background-color: orange;
+    border-radius: 50px;
+}
+
+/* stories section style */
+.stories {
+    display: flex;
+    gap: 20px;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 80px 0px;
+}
+
+.grids {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+
+.Our-Stories {
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: url(assets/bg.png), linear-gradient(177deg, rgba(255, 255, 255, 0.45702030812324934) 11%, rgba(254, 161, 1, 0.521) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: linear-gradient(177deg, rgba(255, 255, 255, 0.45702030812324934) 11%, rgba(254, 161, 1, 0.521) 100%); */
+    padding-bottom: 40px;
+
+
+
+}
+
+.stories {}
+
+.stories-1 {
+    background-color: #ffffff;
+    border: 1px;
+    border-radius: 16px;
+    max-width: 540px;
+}
+
+.stories-1>img {
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    margin-bottom: -60px;
+
+}
+
+.stories-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+
+}
+
+.card-1-content {
+    padding: 40px;
+}
+
+.card-content {
+    padding: 15px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.tittle-space {
+    margin: 35px 0px
+}
+
+.stories-grid>img {
+    width: 100%;
+    border-radius: 16px 16px 0px 0px;
+    margin-bottom: -40px;
+
+}
+
+.stories1-date {
+    background-color: #3CD8E8;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+
+
+}
+
+.stories5-date {
+    background-color: #95b226;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+
+
+}
+
+.stories2-date {
+    background-color: #95b226;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+
+
+}
+
+.stories3-date {
+    background-color: #5d58f0;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+
+
+}
+
+.stories4-date {
+    background-color: #95b226;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+
+
+}
+
+.stories-grid {
+    background-color: #ffffff;
+    border: 1px;
+    border-radius: 16px;
+}
+
+.card-content>h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+.stories2-date {
+    background-color: #3CD8E8;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+}
+
+/* footer style */
+footer {
+    background-color: #01ACFD;
+    color: white;
+    padding: 120px 0px;
+
+}
+
+.footer-section {
+    max-width: 1160px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    width: 400px;
+
+}
+
+.footer-tittle {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-menu {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+.nav-menu>ul {
+    padding: 10px 0px;
+}
+
+.nav-links-footer {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+
+}
+
+.nav-items-footer {
+    padding: 5px 0px;
+}
+
+.footer-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer-logo-content {
+    display: flex;
+
+}
+
+.footer-logo-text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* small divice responsive */
+@media screen and (max-width:576px){
+    .School-header {
+        max-width: 576px;
+        margin: 0 auto;
+    }
+
+    .header-section {
+        max-width: 576px;
+        margin: 0 auto;
+    }
+
+    .Standard-Curriculum {
+        max-width: 576px;
+        margin: 0 auto;
+        padding: 20px 0px;
+    }
+
+    .Our-Stories {
+        max-width: 576px;
+        margin: 0 auto;
+    }
+
+    .stories {
+        max-width: 576px;
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+
+    .section-tiitle {
+        font-size: 1.8rem;
+
+    }
+
+    .School-header {
+        border-bottom: solid 1px orange;
+        padding-bottom: 10px;
+        max-width: 550px;
+    }
+
+    .logo-text {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: inline;
+        margin-right: 15px;
+    }
+
+    .nav-menu-item,
+    .nav-menu-btn {
+        display: none;
+    }
+
+    /* header section */
+    .header-section {
+        flex-direction: column-reverse;
+        max-width: 500px;
+
+    }
+
+    .header-section-content {
+        align-items: center;
+
+        flex-direction: column;
+    }
+
+    .header-section-tittle {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .header-section-dis {
+        font-size: .8rem;
+        font-weight: 400;
+        color: black;
+        margin: 15px 10px;
+        text-align: center;
+    }
+
+    .header-section-img>img {
+        width: 350px;
+    }
+
+    /* card style */
+    .cards-items {
+        flex-direction: column;
+        padding-bottom: 20px;
+        gap: 5px;
+    }
+
+    .card {
+        margin: 20px 10px;
+    }
+
+    .card-content {
+        padding: 10px;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    #curriculum-tittle {
+        margin-bottom: 20px;
+    }
+
+    .arrow-btns {
+        display: none;
+    }
+
+    .stories-1 {
+        display: none;
+    }
+
+    .grids {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 15px;
+    }
+
+    .card-content {
+        /* width: 50%; */
+    }
+
+    /* .stories-grid {
+        width: 50%;
+    } */
+
+    .stories2-date {
+        font-size: .8rem;
+
+    }
+
+    .stories3-date {
+        font-size: .8rem;
+
+    }
+
+    .stories4-date {
+        font-size: .8rem;
+
+    }
+
+    .stories5-date {
+        font-size: .8rem;
+
+    }
+
+    .card-content {
+        padding: 20px;
+    }
+
+    .stories2-date {
+        font-size: .75rem;
+    }
+
+    #stories-space {
+        margin: 20px 0px;
+    }
+
+    /* footer section */
+    
+
+    .footer-menu {
+        margin: 20px 0px;
+    }
+
+    .footer-text {
+        width: 400px;
+    }
+    .footer-section {
+        max-width: 576px;
+        margin: 0 auto;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 50px 15px;
+    }
+}
+
+/* Medium, divice responsive */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .School-header {
+        max-width: 9926px;
+        margin: 0 auto;
+    }
+
+    .header-section {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+    .Our-Stories {
+        max-width: 100%;
+    }
+    .Standard-Curriculum {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+
+   
+
+    .stories {
+        max-width: 992px;
+        padding-top: 20px;
+        justify-content: center;
+    }
+
+    .stories-space {
+        margin-bottom: 20px;
+    }
+
+
+    
+
+    .logo-text {
+        display: none;
+    }
+    .School-header {
+        border-bottom: solid 1px orange;
+        padding-bottom: 10px;
+    }
+    .mobile-menu {
+        display: inline;
+        margin-right: 15px;
+    }
+
+    .nav-menu-item,
+    .nav-menu-btn {
+        display: none;
+    }
+
+    /* header section style */
+    .header-section {
+        flex-direction: column-reverse
+    }
+
+    .header-section-content {
+        align-items: center;
+        max-width: 992px;
+        flex-direction: column;
+
+    }
+
+    .header-section-tittle {
+
+        text-align: center;
+    }
+
+    .header-section-dis {
+        text-align: center;
+    }
+
+    /* cards style */
+    .cards-items {
+        flex-direction: column;
+    }
+
+    .card {
+        margin: 20px 10px;
+    }
+
+    
+
+    #curriculum-tittle {
+        margin-bottom: 20px;
+    }
+    .card-content {
+        padding: 10px;
+        background-color: white;
+        border-radius: 20px;
+    }
+    .arrow-btns {
+        display: none;
+    }
+    .grids {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .stories-1 {
+        display: none;
+    }
+
+   
+
+    /* footer section */
+    .footer-section {
+        max-width: 992px;
+        margin: 0 auto;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 50px 15px;
+    }
+
+    .footer-menu {
+        margin: 20px 0px;
+    }
+
+}
